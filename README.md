@@ -2,6 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Make sure to run `npm install -g firebase-tools` if setting up this project for the first time.
 ## Available Scripts
 
 In the project directory, you can run:
