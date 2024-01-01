@@ -1,11 +1,11 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Header from './components/Header';
 //should only contain  very hgh level stuff in this file
 function App() {
   return (
     <Router>
         <div className="app">
-            <h1>Build amazon clone</h1>
             <Routes>
                 <Route path="/checkout" element={<h1>checkout</h1>}>
 
@@ -13,7 +13,9 @@ function App() {
                 <Route path="/login" element={<h1>Login</h1>}>
 
                 </Route>
-                <Route path="/" element={<h1>Default page</h1>} >
+                <Route path="/" element={
+                  <Header/>
+                } >
 
                 </Route>
             </Routes>
