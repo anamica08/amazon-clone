@@ -44,7 +44,7 @@ export default function Header() {
         <Link to="/checkout" className="header__link">
           <div className="header__optionBasket">
             <ShoppingBasketIcon />
-            <span className="header__optionLineTwo header__basketCount">{basket.length}</span>
+            <span className="header__optionLineTwo header__basketCount">{basket?.length}</span>
           </div>
         </Link>
       </div>
