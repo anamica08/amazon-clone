@@ -18,12 +18,15 @@ function App() {
             }
           ></Route>
           <Route path="/login" element={<h1>Login</h1>}></Route>
-          <Route path="/" element={
-          <>
-             <Header />
-             <Home />
-          </>
-       }></Route>
+          <Route
+            path="/"
+            element={
+              <>
+                <Header />
+                <Home />
+              </>
+            }
+          ></Route>
         </Routes>
       </div>
     </Router>
