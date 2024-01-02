@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Checkout from "./components/Checkout";
 //should only contain  very hgh level stuff in this file
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
             element={
               <>
                 <Header />
-                <h1>checkout</h1>
+                <Checkout/>
               </>
             }
           ></Route>
