@@ -1,7 +1,7 @@
 export const initialState = {
   basket: [],
 };
-
+export const getBasketTotal = (basket) => basket?.reduce((amount, item) => item.price + amount, 0);
 //when we refer to data layer state using variable state and manipulate it via action
 function reducer(state, action) {
   console.log(action);
