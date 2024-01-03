@@ -1,5 +1,5 @@
 # Amazon-clone
-
+Visit the live website on : https://clone-e1a56.web.app
 
 ## Getting Started with Create React App
 
